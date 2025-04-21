@@ -4,7 +4,7 @@ import re
 def validar_nombre_pokemon(nombre):
     # expresion regular para validar nombres de pokemon solo letras y numeros
     # valida el nombre comprueba si la cadena nombre contiene solo letras y numeros y si cumple con la estructura definida por la expresion regular
-    patron = re.compile(r'^[a-zA-Z0-9]+$')
+    patron = re.compile(r'^[a-zA-Z0-9-]+$')
     # retorno devuelve true si la cadena nombre coincide con la expresion regular y false si no coincide
     return patron.match(nombre) is not None
 
