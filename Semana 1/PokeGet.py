@@ -1,13 +1,13 @@
 def Nombre(datos):
-    #Devuelve el nombre del Pokemon
+    #Devuelve el nombre del pokemon
     return datos["name"]
 
 def Altura(datos):
-    #Devuelve la altura del Pokemon
+    #Devuelve la altura del pokemon
     return datos["height"]
 
 def Peso(datos):
-    #Devuelve el peso del Pokemon
+    #Devuelve el peso del pokemon
     return datos["weight"]
 
 def Tipos(datos):
@@ -17,7 +17,7 @@ def Tipos(datos):
         tipos_pokemon.append(tipo_info['type']['name'])
     return tipos_pokemon
 
-#Devuelve una lista con las habilidades del Pokemon
+#Devuelve una lista con las habilidades del pokemon
 def Habilidades(datos):
     habilidades_pokemon = []
     for habilidad_info in datos['abilities']:
@@ -26,7 +26,7 @@ def Habilidades(datos):
 #Devuelve el ID del Pokemon
 def ID(datos):
     return datos["id"]
-#Devuelve la experiencia base del Pokemon
+#Devuelve la experiencia base del pokemon
 def ExperienciaBase(datos):
     return datos["base_experience"]
 

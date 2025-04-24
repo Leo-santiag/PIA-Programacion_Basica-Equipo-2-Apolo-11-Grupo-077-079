@@ -2,7 +2,7 @@
 import API_Conect
 #Modulo de peticiones
 import PokeGet
-nombre = input("Ingrese el nombre o ID de el Pokemon")
+nombre = input("Ingrese el nombre o ID de el Pokemon  \n")
 datos = API_Conect.obtener_datos_pokemon(str(nombre))
 if datos:
         nombre = PokeGet.Nombre(datos)
