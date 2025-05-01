@@ -90,7 +90,7 @@ ID,Nombre,Tipo,HP,Ataque,Defensa,Ataque Especial,Defensa Especial,Velocidad,Altu
 89,muk,poison,105,105,75,65,100,50,12,300,175,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png
 90,shellder,water,30,65,100,45,25,40,3,40,61,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png
 91,cloyster,"water, ice",50,95,180,85,45,70,15,1325,184,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png
-92,gastly,"ghost, poison",30,35,30,100,35,80,13,1,62,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png
+92,gastly,"ghost, poison",30,35,30,100,35,80,13,1,62,
 93,haunter,"ghost, poison",45,50,45,115,55,95,16,1,142,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png
 94,gengar,"ghost, poison",60,65,60,130,75,110,15,405,250,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png
 95,onix,"rock, ground",35,45,160,30,45,70,88,2100,77,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png
@@ -195,7 +195,7 @@ ID,Nombre,Tipo,HP,Ataque,Defensa,Ataque Especial,Defensa Especial,Velocidad,Altu
 194,wooper,"water, ground",55,45,45,25,25,15,4,85,42,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png
 195,quagsire,"water, ground",95,85,85,65,65,35,14,750,151,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/195.png
 196,espeon,psychic,65,65,60,130,95,110,9,265,184,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png
-197,umbreon,dark,95,65,110,60,130,65,10,270,184,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png
+197,umbreon,dark,95,65,110,60,130,65,10,270,184,
 198,murkrow,"dark, flying",60,85,42,85,42,91,5,21,81,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png
 199,slowking,"water, psychic",95,75,80,100,110,30,20,795,172,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png
 200,misdreavus,ghost,60,60,60,85,85,85,7,10,87,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png
@@ -1166,9 +1166,9 @@ ID,Nombre,Tipo,HP,Ataque,Defensa,Ataque Especial,Defensa Especial,Velocidad,Altu
 10140,minior-blue,"rock, flying",60,100,60,100,60,120,3,3,175,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10140.png
 10141,minior-indigo,"rock, flying",60,100,60,100,60,120,3,3,175,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10141.png
 10142,minior-violet,"rock, flying",60,100,60,100,60,120,3,3,175,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10142.png
-10143,mimikyu-busted,"ghost, fairy",55,90,80,50,105,96,2,7,167,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10142.png
+10143,mimikyu-busted,"ghost, fairy",55,90,80,50,105,96,2,7,167,
 10144,mimikyu-totem-disguised,"ghost, fairy",55,90,80,50,105,96,4,28,167,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10144.png
-10145,mimikyu-totem-busted,"ghost, fairy",55,90,80,50,105,96,4,28,167,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10144.png
+10145,mimikyu-totem-busted,"ghost, fairy",55,90,80,50,105,96,4,28,167,
 10146,kommo-o-totem,"dragon, fighting",75,110,125,100,105,85,24,2075,270,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10146.png
 10147,magearna-original,"steel, fairy",80,95,115,130,115,65,10,805,300,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10147.png
 10148,pikachu-partner-cap,electric,35,55,40,50,50,90,4,60,112,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10148.png
@@ -1287,14 +1287,14 @@ ID,Nombre,Tipo,HP,Ataque,Defensa,Ataque Especial,Defensa Especial,Velocidad,Altu
 10261,squawkabilly-yellow-plumage,"normal, flying",82,96,51,45,51,92,6,24,146,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10261.png
 10262,squawkabilly-white-plumage,"normal, flying",82,96,51,45,51,92,6,24,146,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10262.png
 10263,gimmighoul-roaming,ghost,45,30,25,75,45,80,1,10,60,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10263.png
-10264,koraidon-limited-build,"fighting, dragon",100,135,115,85,100,135,35,3030,335,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1007.png
-10265,koraidon-sprinting-build,"fighting, dragon",100,135,115,85,100,135,35,3030,335,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1007.png
-10266,koraidon-swimming-build,"fighting, dragon",100,135,115,85,100,135,35,3030,335,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1007.png
-10267,koraidon-gliding-build,"fighting, dragon",100,135,115,85,100,135,35,3030,335,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1007.png
-10268,miraidon-low-power-mode,"electric, dragon",100,85,100,135,115,135,28,2400,335,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1008.png
-10269,miraidon-drive-mode,"electric, dragon",100,85,100,135,115,135,28,2400,335,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1008.png
-10270,miraidon-aquatic-mode,"electric, dragon",100,85,100,135,115,135,28,2400,335,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1008.png
-10271,miraidon-glide-mode,"electric, dragon",100,85,100,135,115,135,28,2400,335,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1008.png
+10264,koraidon-limited-build,"fighting, dragon",100,135,115,85,100,135,35,3030,335,
+10265,koraidon-sprinting-build,"fighting, dragon",100,135,115,85,100,135,35,3030,335,
+10266,koraidon-swimming-build,"fighting, dragon",100,135,115,85,100,135,35,3030,335,
+10267,koraidon-gliding-build,"fighting, dragon",100,135,115,85,100,135,35,3030,335,
+10268,miraidon-low-power-mode,"electric, dragon",100,85,100,135,115,135,28,2400,335,
+10269,miraidon-drive-mode,"electric, dragon",100,85,100,135,115,135,28,2400,335,
+10270,miraidon-aquatic-mode,"electric, dragon",100,85,100,135,115,135,28,2400,335,
+10271,miraidon-glide-mode,"electric, dragon",100,85,100,135,115,135,28,2400,335,
 10272,ursaluna-bloodmoon,"ground, normal",113,70,120,135,65,52,24,2900,275,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10272.png
 10273,ogerpon-wellspring-mask,"grass, water",80,120,84,60,96,110,12,398,275,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10273.png
 10274,ogerpon-hearthflame-mask,"grass, fire",80,120,84,60,96,110,12,398,275,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10274.png
