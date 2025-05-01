@@ -71,6 +71,7 @@ def exportar_a_csv(df, nombre_archivo):
 nombre_archivo = "pokemones.csv"
 
 #en un bucle for preparamos toda la extraccion 
+#dado que el codgo guarda los pokemones en desorden tipo a tipo
 df_general = pd.DataFrame()
 for tipo in Tipos:
     df = obtener_pokemones_por_tipo(tipo)
