@@ -147,4 +147,4 @@ for columna in df.columns:
 ###################### IMPLEMENTACION DEL MODULO FILTRO2 >>> CrearTablasjson
 import CrearTablasjson as ctj
 #solo si no se tiene 
-#ctj.main()
+ctj.main()
