@@ -96,7 +96,7 @@ for atributo, metricas in estadisticas.items():
     for metrica, valor in metricas.items():
         print(f"  {metrica}: {valor:.2f}" if isinstance(valor, (int, float)) else f"  {metrica}: {valor}")
 
-#########################  ANALISIS ESTADISTICO  #########################  POR TIPO
+#########################  ANALISIS ESTADISTICO  #########################  POR TIPO ###########
 def estadisticas_por_tipo(df, tipos_dict):
     columnas_numericas = ['HP', 'Ataque', 'Defensa', 'Ataque Especial', 'Defensa Especial', 'Velocidad', 'Altura', 'Peso', 'Experiencia Base']
     resultados = {}

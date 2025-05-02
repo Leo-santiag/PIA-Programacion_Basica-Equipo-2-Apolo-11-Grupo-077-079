@@ -61,12 +61,12 @@ ventana.configure(bg="#FF0000")
 frameBusqueda = tk.Frame(ventana, bg="#FF0000")
 frameBusqueda.pack(pady=10)
 
-labelInstruccion = tk.Label(frameBusqueda, text="Ingrese un ID:", bg="#FF0000")
+labelInstruccion = tk.Label(frameBusqueda, text="Ingrese un ID:", bg="#FFFFFF")
 labelInstruccion.pack(side='left')
 
-entradaId = tk.Entry(frameBusqueda,bg="#FF0000")
+entradaId = tk.Entry(frameBusqueda,bg="#FFFFFF")
 entradaId.pack(side='left', padx=5)
-boton_buscar = tk.Button(frameBusqueda, text="Buscar", command=buscar_y_mostrar, bg="#FF0000")
+boton_buscar = tk.Button(frameBusqueda, text="Buscar", command=buscar_y_mostrar, bg="#FFFFFF")
 boton_buscar.pack(side='left')
 
 frame_resultados = tk.Frame(ventana,bg="#FF0000")

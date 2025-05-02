@@ -122,7 +122,7 @@ def ordenar_eliminar_duplicados_y_identificar_saltos(csv_path, columna_id, csv_s
     df = df.drop_duplicates(subset=[columna_id]).sort_values(by=columna_id)
 
     #las siguientes lineas identifican los saltos 
-    #habra un salto muy grande desde 1025 hasta 1000 y algo 
+    #habra un salto muy grande desde 1025 hasta 10000 y algo 
     ids = df[columna_id].tolist()
     id_min, id_max = min(ids), max(ids)
     ids_completos = set(range(id_min, id_max + 1))
