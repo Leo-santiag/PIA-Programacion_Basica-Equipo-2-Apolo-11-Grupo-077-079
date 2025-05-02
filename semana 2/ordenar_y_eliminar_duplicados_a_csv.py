@@ -26,4 +26,5 @@ def ordenar_eliminar_duplicados_y_identificar_saltos(csv_path, columna_id, csv_s
     print(f"Archivo procesado guardado como: {csv_salida}")
 
 #ejecutar
-ordenar_eliminar_duplicados_y_identificar_saltos("pokemones.csv", "ID", "archivo_ordenado.csv")
+if __name__ == "__main__":
+    ordenar_eliminar_duplicados_y_identificar_saltos("pokemones.csv", "ID", "archivo_ordenado.csv")

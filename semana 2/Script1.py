@@ -80,8 +80,8 @@ def obtener_pokemones_por_tipo(tipo):
             "Ataque Especial": data["stats"][3]["base_stat"],
             "Defensa Especial": data["stats"][4]["base_stat"],
             "Velocidad": data["stats"][5]["base_stat"],
-            "Altura": data["height"],
-            "Peso": data["weight"],
+            "Altura": data["height"]/10,
+            "Peso": data["weight"]/10,
             #Resolución de inconsistencias o valores erróneos en los datos. 
             #omitimos estos porque son muchos datos inecesarios y son muchos 
             "Habilidades": ", ".join([habilidad["ability"]["name"] for habilidad in data["abilities"]]),
@@ -113,7 +113,6 @@ exportar_a_csv(df_general, nombre_archivo)
 
 #Limpieza de Datos
 #esta archivo sirve para cpmprovar si ningun id falto y si dio saltos que es lo mismo que identificar los ides faltantes
-
 def ordenar_eliminar_duplicados_y_identificar_saltos(csv_path, columna_id, csv_salida):
     #debemos cargar primero el archivo desde en path
     df = pd.read_csv(csv_path)
@@ -147,4 +146,4 @@ for columna in df.columns:
 ###################### IMPLEMENTACION DEL MODULO FILTRO2 >>> CrearTablasjson
 import CrearTablasjson as ctj
 #solo si no se tiene 
-ctj.main()
+#ctj.main()
