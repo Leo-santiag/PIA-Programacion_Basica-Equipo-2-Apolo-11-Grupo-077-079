@@ -20,7 +20,7 @@ def validar_tipo_pokemon(tipo):
 
 def obtener_datos_tipo(tipo):
     if not validar_tipo_pokemon(tipo):
-        print("Tipo de Pokémon inválido. Por favor, ingrese un tipo válido.")
+        print("Tipo de Pokémon invalido. Por favor, ingrese un tipo valido.")
         return None
     #url de la peticion a la POKEAPI
     endpoint = "type"

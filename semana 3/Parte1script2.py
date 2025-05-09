@@ -22,7 +22,7 @@ def cargar_json_a_diccionario(ruta_archivo):
     except FileNotFoundError:
         print(" Error: No se encontró el archivo.")
     except json.JSONDecodeError:
-        print(" Error: El contenido no es un JSON válido.")
+        print(" Error: El contenido no es un JSON valido.")
     except Exception as e:
         print(f" Error inesperado: {e}")
 ######################   VALIDACION  ################################ 
@@ -70,15 +70,15 @@ if nombres_validos.all() and tipos_validos.all() and urls_validas.all():
     print("Todos los datos pasaron las validaciones.")
 else:
     print("Algunos datos no pasaron la validación.")
-    print("Nombres inválidos:", df[~nombres_validos]['Nombre'].tolist())
-    print("Tipos inválidos:", df[~tipos_validos]['Tipo'].tolist())
-    print("URLs inválidas:", df[~urls_validas]['URL imagen'].tolist())
+    print("Nombres invalidos:", df[~nombres_validos]['Nombre'].tolist())
+    print("Tipos invalidos:", df[~tipos_validos]['Tipo'].tolist())
+    print("URLs invalidas:", df[~urls_validas]['URL imagen'].tolist())
 faltantes = df[df['URL imagen'].isnull()][['ID', 'Nombre']]
 if faltantes.empty:
     pass  
 else:
     print(faltantes)
-# ----------- ANÁLISIS ESTADÍSTICO -----------GENERAL--------------
+# ----------- ANaLISIS ESTADÍSTICO -----------GENERAL--------------
 estadisticas = {}
 for columna in ['HP', 'Ataque', 'Defensa', 'Ataque Especial', 'Defensa Especial', 'Velocidad', 'Altura', 'Peso', 'Experiencia Base']:
     valores = df[columna].dropna().tolist()
@@ -86,9 +86,9 @@ for columna in ['HP', 'Ataque', 'Defensa', 'Ataque Especial', 'Defensa Especial'
         'Media': np.mean(valores),
         'Mediana': np.median(valores),
         'Moda': stats.mode(valores),
-        'Desviación estándar': np.std(valores),
+        'Desviación estandar': np.std(valores),
         'Mínimo': np.min(valores),
-        'Máximo': np.max(valores)
+        'Maximo': np.max(valores)
     }
 # Mostrar resultados
 for atributo, metricas in estadisticas.items():
@@ -116,9 +116,9 @@ def estadisticas_por_tipo(df, tipos_dict):
                 'Media': round(np.mean(datos), 2),
                 'Mediana': round(np.median(datos), 2),
                 'Moda': moda_valor,
-                'Desviación estándar': round(np.std(datos), 2),
+                'Desviación estandar': round(np.std(datos), 2),
                 'Mínimo': datos.min(),
-                'Máximo': datos.max()
+                'Maximo': datos.max()
             }
 
         resultados[tipo] = tipo_stats
@@ -167,14 +167,14 @@ def convertir_a_csv(diccionario, nombre_archivo):
         escritor = csv.writer(archivo_csv)
         
         #escribir el encabezado
-        encabezado = ['Tipo', 'Atributo', 'Media', 'Mediana', 'Moda', 'Desviación estándar', 'Mínimo', 'Máximo']
+        encabezado = ['Tipo', 'Atributo', 'Media', 'Mediana', 'Moda', 'Desviación estandar', 'Mínimo', 'Maximo']
         escritor.writerow(encabezado)
         
         #escribir las filas con los datos del diccionario
         for tipo, estadisticas in diccionario.items():
             for atributo, valores in estadisticas.items():
                 fila = [tipo.capitalize(), atributo]
-                for medida in ['Media', 'Mediana', 'Moda', 'Desviación estándar', 'Mínimo', 'Máximo']:
+                for medida in ['Media', 'Mediana', 'Moda', 'Desviación estandar', 'Mínimo', 'Maximo']:
                     fila.append(valores.get(medida, 'N/A'))
                 escritor.writerow(fila)
 

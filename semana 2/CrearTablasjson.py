@@ -8,7 +8,7 @@ def validar_tipo_pokemon(tipo):
 
 def obtener_datos_tipo(tipo):
     if not validar_tipo_pokemon(tipo):
-        print(f"Tipo inválido: {tipo}")
+        print(f"Tipo invalido: {tipo}")
         return None
     endpoint = "type"
     url = f"https://pokeapi.co/api/v2/{endpoint}/{tipo.lower()}"
