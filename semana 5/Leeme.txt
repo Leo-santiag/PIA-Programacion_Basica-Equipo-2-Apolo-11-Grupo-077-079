@@ -1,0 +1,21 @@
+Nuestro Projecto 
+¡Algunos Nombres de Documentos Fueron cambiados para fines practicos!
+script1pt1
+        Es un codigo que contiene una fucion para entrar y pedir datos a la POKEAPI 
+                                                                                !no ejecuta nada!
+        En la semana 1 el modulo pruebas1 importaba los modulos este script titulado como API_Conect.py
+        En el modulo PokeGet.py se encuentran funciones especificas con rutas para pedir a la API si necesidad de recordar la ruta      
+script1pt2
+        integramos las funciones de el primer script(API_Conect.py) pero dejamos fuera las de PokeGet.py     
+        Porlo que este script es el script completo  
+        Ademas tambien importamos el modulo CrearTablasJson.py que filtra ids por tipo y guarda todo en un json 
+        sin embargo en el documento aparece comentado en la parte final                  
+script2pt1
+        No hay mucho que decir 
+        Solo es el codigo que genera las estadisticas hace uso de Tablas.json y archivo_ordenado.csv
+        Genera: Estadisticasportipo.csv
+scipt2pt2(no estan unidos)
+        Solo pudimos realizar un documento que se ejecuta sin mas 
+        
+        El documennto main.py tiene una interfaz grafica la no es la mas impresionante pero almenos esta hecha por nosotros
+        
